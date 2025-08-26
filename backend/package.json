@@ -1,0 +1,15 @@
+{
+  "name": "guardiq-backend",
+  "version": "1.0.0",
+  "description": "GuardIQ Cybersecurity Dashboard Backend",
+  "main": "app.py",
+  "scripts": {
+    "start": "python run_server.py",
+    "dev": "python run_server.py",
+    "setup": "python setup_database.py",
+    "install": "pip install -r requirements.txt"
+  },
+  "keywords": ["cybersecurity", "flask", "postgresql", "api"],
+  "author": "GuardIQ Team",
+  "license": "MIT"
+}
